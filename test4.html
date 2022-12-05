@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset="utf-8">  
+ <title></title>  
+ <style> 
+ body{
+
+  background-image:url(https://desk-fd.zol-img.com.cn/t_s720x360c5/g7/M00/06/09/ChMkK2LU_gGIZN6xAD_EEslaERYAAFZ_wHNtAEAP8Qq222.jpg) ;
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+   div{ 
+ width: 100px; 
+ height: 100px; 
+ background-color: red; 
+ position: absolute;  
+ padding: 20px; 
+ animation: myfirst 15s infinite;  
+ transition: width 2s, height 2s, transform 3s; 
+ } 
+ @keyframes myfirst{  
+ 0%{background: red; left:0px; top:0px;}  
+ 25% {background: rgb(26, 68, 32); left:200px; top:0px;}  
+ 50% {background: rgb(34, 0, 128); left:200px; top:200px;}  
+ 75% {background: purple; left:0px; top:200px;}  
+ 100% {background: rgb(26, 14, 14); left:0px; top:0px;}  
+ } 
+ div:hover { 
+ width: 500px; 
+ height: 500px; 
+ transform: rotate(180deg); 
+ } 
+ </style> 
+ </head> 
+ <body> 
+ 
+  <div>
+    块1
+    <div>
+    块2
+    </div>
+    
+  </div> 
+
+  </body> 
+ </html> 
